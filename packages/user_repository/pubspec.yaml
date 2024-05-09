@@ -1,5 +1,5 @@
-name: foodapp
-description: "A new Flutter project."
+name: user_repository
+description: "This Repo handle the users"
 
 publish_to: 'none' 
 
@@ -10,8 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.6
+  
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
 
 dev_dependencies:
   flutter_test:
