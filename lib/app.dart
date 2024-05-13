@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       create: (context) => AuthBlocBloc(
         userRepository: userRepository,
       ),
-      child: MyAppView(),
+      child: const MyAppView(),
     );
   }
 }
