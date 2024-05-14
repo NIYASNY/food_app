@@ -18,7 +18,7 @@ class AuthBlocBloc extends Bloc<AuthBlocEvent, AuthBlocState> {
       if (event.user != MyUser.empty) {
         emit(AuthBlocState.authenticated(event.user!));
       } else {
-        emit(AuthBlocState.unauthenticated());
+        emit(const AuthBlocState.unauthenticated());
       }
     }));
   }
