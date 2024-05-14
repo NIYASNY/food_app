@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:foodapp/blocs/bloc/auth_bloc_bloc.dart';
+import 'package:foodapp/screens/auth/views/welcomescreen.dart';
+import 'package:foodapp/screens/home/views/homescreen.dart';
 
 class MyAppView extends StatelessWidget {
   const MyAppView({super.key});
