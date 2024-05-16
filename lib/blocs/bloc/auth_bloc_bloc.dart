@@ -6,6 +6,8 @@ import 'package:user_repository/user_repository.dart';
 part 'auth_bloc_event.dart';
 part 'auth_bloc_state.dart';
 
+
+//auth bloc
 class AuthBlocBloc extends Bloc<AuthBlocEvent, AuthBlocState> {
   final UserRepository userRepository;
   late final StreamSubscription<MyUser?> _usersubscription;
