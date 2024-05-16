@@ -1,5 +1,7 @@
 part of 'auth_bloc_bloc.dart';
 
+
+//auth state
 enum AuthBlocStatus { authenticated, unauthenticated, unknown }
 
 class AuthBlocState extends Equatable {
