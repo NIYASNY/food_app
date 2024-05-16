@@ -1,5 +1,7 @@
 part of 'auth_bloc_bloc.dart';
 
+
+//auth event
 sealed class AuthBlocEvent extends Equatable {
   const AuthBlocEvent();
 
